@@ -3,3 +3,5 @@ markdown: kramdown
 highlighter: rouge
 encoding: UTF-8
 safe: true
+
+theme: jekyll-theme-slate
