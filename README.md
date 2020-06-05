@@ -1,2 +1,2 @@
-123tanken.github.io
+chargeplanner.github.io
 ===================
