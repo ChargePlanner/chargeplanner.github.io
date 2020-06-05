@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+<p class="meta">{{page.place}}, {{ page.date | date: "%Y-%m-%d" }}</p>
+
+<div class="post">
+{{ content }}
+</div>
+
+<p>
+	<strong>
+	{% for download in page.downloads %}
+	<a href={{ download[1] }}>{{ download[0] }}</a>{% if forloop.index != page.downloads.size %} &middot; {% endif %}
+	{% endfor %}
+	</strong>
+</p>

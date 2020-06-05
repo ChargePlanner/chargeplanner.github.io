@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta http-equiv="refresh" content="0;url={{ page.redirect }}">
+	<link rel="canonical" href="{{ page.redirect }}">
+	<script type="text/javascript">
+		window.location.href = "{{ page.redirect }}"
+	</script>
+	{% include head.html %}
+</head>
+<body>
+	<div class="container">
+		{% include header.html navpill=page.navpill %}
+
+		{{ content }}
+
+		{% include footer.html %}
+	</div>
+</body>
+</html>

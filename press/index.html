@@ -1,0 +1,42 @@
+---
+layout: default
+navpill: press
+---
+
+<div class="jumbotron imprint" style="text-align:left;">
+  <h2 style="text-align:center; margin-top:0px;">Press Information</h2>
+
+  <p style="margin-top:30px;">
+    <strong>Press Kit</strong><br />
+    <a href="/press/1-2-3_fuel_presskit.zip"
+      >Press Kit incl. screenshots and icons</a
+    >
+  </p>
+
+  <p style="margin-bottom:30px;">
+    <strong>Press Contact</strong><br />
+    Florian Reinhart<br />
+    {% include email.html coded="h9wTTw@nGLRrg5wg.Sw"
+    key="VXh0Uly7DqiW1m6seIutaPkN3jAxHCdn2ZTwFERr45vLzpcbJSgGMQOKBY9o8f" %}<br />
+    + 49 176/55160219 (no phone support for the app, support only available by
+    email)
+  </p>
+
+  {% for post in site.categories.press %}
+  <div class="pressrelease">
+    <h4>Press Release from {{ post.date | date: "%Y-%m-%d" }}</h4>
+    <h2>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    <p>{{ post.excerpt }}</p>
+    <p>
+      <strong>
+        {% for download in post.downloads %}
+        <a href={{ download[1] }}>{{ download[0] }}</a
+        >{% if forloop.index != post.downloads.size %} &middot; {% endif %} {%
+        endfor %}
+      </strong>
+    </p>
+  </div>
+  {% endfor %}
+</div>

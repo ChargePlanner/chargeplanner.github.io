@@ -1,0 +1,39 @@
+---
+layout: post
+title: "1-2-3 Fuel now supports more countries and more fuel prices "
+date: 2018-11-14 12:00:00
+place: "St. Leon-Rot"
+categories: press
+navpill: press
+excerpt: "The fuel price comparison app 1-2-3 Fuel, available for iOS and Android, receives its biggest update yet with version 2.0. In addition to prices for new types of fuel, such as Super Plus and other premium types, this brings even more detailed information on individual petrol stations, such as available petrol station services, accepted means of payment, contact information and much more. In addition, the app now also displays petrol stations and prices in France, Italy, Spain and Portugal. This also includes popular holiday destinations such as the Canary Islands, the Balearic Islands, Sicily and Corsica."
+downloads:
+  PDF: "/press/1-2-3_fuel_2018-11-14.pdf"
+  Word: "/press/1-2-3_fuel_2018-11-14.docx"
+  Presskit: "/press/1-2-3_fuel_presskit.zip"
+---
+
+The fuel price comparison app 1-2-3 Fuel, available for iOS and Android, receives its biggest update yet with version 2.0. In addition to prices for new types of fuel, such as Super Plus and other premium types, this brings even more detailed information on individual petrol stations, such as available petrol station services, accepted means of payment, contact information and much more. In addition, the app now also displays petrol stations and prices in France, Italy, Spain and Portugal. This also includes popular holiday destinations such as the Canary Islands, the Balearic Islands, Sicily and Corsica.
+
+### Data quality has priority
+
+Since the first version of 1-2-3 Fuel, data from German petrol stations has been obtained from the Bundeskartellamt's “Markttransparenzstelle für Kraftstoffe” (MTS-K). For the new version, numerous additional data sources have been integrated to display even more information on petrol stations. For drivers, this has the advantage that, in addition to more real-time prices, information on petrol station services, availability of LPG or AdBlue, as well as accepted payment methods and fuel cards can now also be displayed.
+
+But even in other European countries, 1-2-3 Fuel sets great value upon delivering the best data quality and therefore obtains the data exclusively from official sources. "Under all circumstances, we want to prevent a user from driving to a petrol station on the basis of false information . Therefore all our data comes from official sources or directly from station operators", Florian Reinhart, the managing director, explains. This means that users of the 1-2-3 Fuel App can now also rely on the latest petrol station prices in other European countries besides Germany.
+
+### More useful functions and a polished look
+
+In addition to the numerous new data, the version 2.0 of 1-2-3 Fuel also offers an improved user interface and some useful new functions. The route calculation in the iOS version now resides in its own tab and the improved route algorithm now shows the cheapest petrol stations in the area even better and at regular intervals along the route. This allows you to save a lot of money even on longer journeys. Previously entered locations or routes are now also saved in a location history. This eliminates the need to re-enter previously searched locations.
+
+### Availability
+
+1-2-3 Fuel in the iOS App Store: [http://AppStore.com/123Tanken][ios]<br>
+1-2-3 Fuel in the Google Play Store: [https://play.google.com/store/apps/details?id=de.bottledsoftware.tanken][android]
+
+### About 1-2-3 Fuel
+
+1-2-3 Fuel was published at the end of 2013 as one of the first fuel price comparison apps with a direct link to the Bundeskartellamt's “Markttransparenzstelle für Kraftstoffe” (MTS-K). Since version 2.0, the app includes petrol stations in France, Italy, Spain and Portugal in addition to petrol stations in Germany. Right from the start, 1-2-3 Fuel focused on simple operation and a simple user interface. Since then, the app has received numerous updates with a variety of new features.
+
+The basic version of 1-2-3 Fuel is free and contains advertising. For even more additional features, such as interactive price statistics, unlimited price alarms and an Apple Watch app, a 1-2-3 Fuel Plus subscription can be purchased. The 1-2-3 Fuel Plus version is also completely ad-free.
+
+[android]: https://play.google.com/store/apps/details?id=de.bottledsoftware.tanken
+[ios]: http://AppStore.com/123Tanken

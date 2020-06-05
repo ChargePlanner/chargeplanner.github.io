@@ -1,0 +1,259 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+.share-buttons {
+  font-size: 0;
+  line-height: 0;
+  padding-top: 4px;
+}
+
+.share-buttons > * {
+  margin-left: 4px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+}
+
+.feature-presentation {
+	position: relative;
+	font-size: 18px;
+}
+
+.feature-presentation h1 {
+	font-size: 34px;
+	font-weight: 300;
+}
+
+.feature-presentation img {
+  max-width: 100%;
+}
+
+.feature-presentation p {
+	line-height: 1.6;
+	font-weight: 300;
+}
+
+.feature-presentation-even > div:first-of-type { float: left; }
+.feature-presentation-odd > div:first-of-type { float: right; }
+.feature-presentation-even > div ~ div { text-align: center; }
+.feature-presentation-odd > div ~  div{ text-align: center; }
+
+.nowrap {
+  white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+  .feature-text { padding-top: 180px; }
+}
+
+/* Customize container */
+.container {
+   max-width: 900px;
+   /* min-width: 900px; */
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.imprint {
+	font-size: 17px;
+}
+
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.pressrelease {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px solid #e5e5e5;
+}
+
+.pressrelease h4 {
+	margin-bottom: -10px;
+}
+
+.logo a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.logo img {
+	vertical-align: bottom;
+}
+
+#logo-nav-bar {
+	height: 30pt;
+	width: 30pt;
+}
+
+#logo-promo {
+	height: 60pt;
+	width: 60pt;
+}
+
+#hero-logo {
+	margin-top: -20px;
+}
+
+.device-switch {
+  text-align: center;
+  padding-bottom: 28px;
+}
+
+.invisible { display: none; }
+.android { position: relative; }
+.android .screenshot {
+  position: absolute;
+  top: 14.5%;
+  left: 11%;
+  height: 71.5%;
+}
+.dark { position: relative; }
+.dark .screenshot {
+  position: absolute;
+  top: 14.5%;
+  left: 11%;
+  height: 71.5%;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background: #191919;
+    color: #C7C7C7;
+  }
+
+  h1 {
+    color: #fff;
+  }
+
+  .header {
+    border-bottom: 1px solid #373737;
+  }
+
+  .footer {
+    padding-top: 19px;
+    color: #000;
+    border-top: 1px solid #373737;
+    text-align: center;
+  }
+
+  .jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #373737;
+  }
+
+  .pressrelease {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #373737;
+  }
+
+  .navbar-inverse {
+    background-color: #373737;
+    color: #fff;
+    border-color: #373737;
+  }
+
+  .jumbotron {
+    background: #373737;
+    color: #fff;
+  }
+
+  .jumbotron h1 {
+    color: #fff;
+  }
+
+  .footer {
+    color: #fff
+  }
+
+  /* .navbar-default {
+    background-image: -webkit-gradient(linear, left 0%, left 100%, from(#3c3c3c), to(#222222));
+    background-image: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+    background-image: -moz-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+    background-image: linear-gradient(to bottom, #3c3c3c 0%, #222222 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  }
+  
+  .navbar-default .navbar-nav > .active > a {
+    background-image: -webkit-gradient(linear, left 0%, left 100%, from(#222222), to(#282828));
+    background-image: -webkit-linear-gradient(top, #222222 0%, #282828 100%);
+    background-image: -moz-linear-gradient(top, #222222 0%, #282828 100%);
+    background-image: linear-gradient(to bottom, #222222 0%, #282828 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff282828', GradientType=0);
+    -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.25);
+            box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.25);
+  }
+  
+  .navbar-default .navbar-brand,
+  .navbar-default .navbar-nav > li > a {
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  } */
+
+}
