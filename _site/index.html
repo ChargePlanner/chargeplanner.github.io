@@ -2,276 +2,283 @@
 <html lang="de">
 
 <head>
-	<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="">
-<meta name="author" content="">
-<meta name="apple-itunes-app" content="app-id=688981330">
-<meta name="viewport" content="width=device-width">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- <meta name="apple-itunes-app" content="app-id=688981330"> -->
+  <meta name="viewport" content="width=device-width">
 
-<title>Charge Planner</title>
+  <title>Charge Planner</title>
 
-<!-- Favicon -->
-<link rel="shortcut icon" href="/favicon.ico">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/favicon.ico">
 
-<!-- syntax highlighting CSS -->
-<link rel="stylesheet" href="/css/syntax.css">
-<!-- Bootstrap core CSS/JS -->
-<link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/css/syntax.css">
+  <!-- Bootstrap core CSS/JS -->
+  <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
 
-<script src="/jquery/jquery-1.11.0.min.js"></script>
-<script src="/bootstrap/js/bootstrap.min.js"></script>
+  <script src="/jquery/jquery-1.11.0.min.js"></script>
+  <script src="/bootstrap/js/bootstrap.min.js"></script>
 
-<!-- Custom styles for this template -->
-<link href="/css/jumbotron-narrow.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="/css/jumbotron-narrow.css" rel="stylesheet">
 
-<!-- Morris graph framework -->
-<!-- <link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css"> -->
-<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script> -->
-<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script> -->
+  <!-- Morris graph framework -->
+  <!-- <link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css"> -->
+  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script> -->
+  <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script> -->
 
-<!-- <script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script> -->
+  <!-- <script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script> -->
 
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
 	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 <![endif]-->
 </head>
 
 <body>
-	<div class="container">
-		<nav class="navbar navbar-default" role="navigation">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-        data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Navigation ein- oder ausblenden</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Charge Planner</a>
-    </div>
+  <div class="container">
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Navigation ein- oder ausblenden</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Charge Planner</a>
+        </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li class="active" ><a href="/">Home</a></li>
           <li><a href="/press/">Presse</a></li>
       </ul>
     </div> -->
-  </div>
-</nav>
+      </div>
+    </nav>
 
-		<div class="jumbotron">
-  <h1 style="margin-top:-10px;">
-    <img id="hero-logo" src="images/app_icon_large.png" srcset="images/app_icon_large@2x.png 2x"
-      alt="1-2-3 Fuel App Icon" />
-    <span class="nowrap">Charge Planner</span>
-  </h1>
-  <p class="lead">
-    ChargePlanner ist eine neue App für Elektroautofahrer zum Auffinden von Ladestationen und zur Ladeplanung beim
-    Fahren längerer Strecken. Registriere dich jetzt für den kostenlosen iOS-Betatest.
-  </p>
-  <p>
-    <!-- App Store -->
-    <!-- <a href="https://itunes.apple.com/de/app/1-2-3-tanken/id688981330?mt=8" target="itunes_store">
+    <div class="jumbotron">
+      <h1 style="margin-top:-10px;">
+        <img id="hero-logo" src="images/app_icon_large.png" srcset="images/app_icon_large@2x.png 2x"
+          alt="1-2-3 Fuel App Icon" />
+        <span class="nowrap">Charge Planner</span>
+      </h1>
+      <p class="lead">
+        ChargePlanner ist eine neue App für Elektroautofahrer zum Auffinden von Ladestationen und zur Ladeplanung beim
+        Fahren längerer Strecken. Registriere dich jetzt für den kostenlosen iOS-Betatest.
+      </p>
+      <p>
+        <!-- App Store -->
+        <!-- <a href="https://itunes.apple.com/de/app/1-2-3-tanken/id688981330?mt=8" target="itunes_store">
       <img src="images/app_store_badge.svg" width="135px" height="40px" alt="Registrierung zum iOS-Betatest" />
     </a> -->
-  </p>
-  <a class="btn btn-default" href="https://testflight.apple.com/join/qtY4D3KH" role="button">Zum iOS-Betatest
-    anmelden</a>
-
-</div>
-
-<script type="text/javascript">
-  $(document).ready(function () {
-    var useragent = navigator.userAgent.toLowerCase();
-    var isAndroid = useragent.indexOf("android") > -1;
-    var forceAndroid = window.location.href.includes("#android");
-    var forceIOS = window.location.href.includes("#ios");
-    var reset = function () {
-      $(".btn").removeClass("active");
-      $(".ios").removeClass("invisible");
-      $(".android").removeClass("invisible");
-    };
-    var activateAndroid = function () {
-      reset();
-      $(".android-button").addClass("active");
-      $(".ios").addClass("invisible");
-    };
-    var activateIOS = function () {
-      reset();
-      $(".ios-button").addClass("active");
-      $(".android").addClass("invisible");
-    };
-    var activateDarkMode = function () {
-      $(".dark").removeClass("invisible");
-      $(".ios").addClass("invisible");
-      $(".navbar").removeClass("navbar-default");
-      $(".navbar").addClass("navbar-inverse");
-    };
-
-    var deactivateDarkMode = function () {
-      $(".dark").addClass("invisible");
-      $(".ios").removeClass("invisible");
-      $(".navbar").addClass("navbar-default");
-      $(".navbar").removeClass("navbar-inverse");
-    };
-
-    var applyCurrentTheme = function () {
-      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        activateDarkMode();
-      } else {
-        deactivateDarkMode();
-      }
-    };
-
-    $(".android-button").click(activateAndroid);
-    $(".ios-button").click(activateIOS);
-    if (forceIOS) {
-      activateIOS();
-    } else if (forceAndroid || isAndroid) {
-      activateAndroid();
-    } else {
-      activateIOS();
-    }
-
-    window.matchMedia("(prefers-color-scheme: dark)").addListener(
-      e => e.matches && activateDarkMode()
-    );
-
-    window.matchMedia("(prefers-color-scheme: light)").addListener(
-      e => e.matches && deactivateDarkMode()
-    );
-
-    applyCurrentTheme();
-
-  });
-</script>
-
-<div class="feature-presentation container-fluid">
-  <div class="row feature-presentation-even">
-    <div class="col-xs-12 col-sm-7 feature-text">
-      <h1>Umfangreiche Datensammlung</h1>
-      <p>
-        Charge Planner vereint die Daten aus über 10 verschiedenen Datenquellen in einer App und stellt über 17.000
-        Ladestationen in Deutschland in einer
-        übersichtlichen Kartenansicht dar. Egal ob du Ladestationen in deiner Nähe oder in einer anderen Stadt finden
-        möchtest: In der Kartenansicht hast du alle wichtigen Informationen sofort im Blick.
       </p>
-    </div>
-    <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
-      <div class="ios">
-        <img src="images/screenshots/map.jpg" srcset="images/screenshots/map@2x.jpg 2x" alt="Screenshot Karte" />
-      </div>
-      <div class="dark">
-        <img src="images/screenshots/map-dark.jpg" srcset="images/screenshots/map-dark@2x.jpg 2x"
-          alt="Screenshot Karte" />
-      </div>
-    </div>
-  </div>
+      <a class="btn btn-default" href="https://testflight.apple.com/join/qtY4D3KH" role="button">Zum iOS-Betatest
+        anmelden</a>
 
-  <div class="row feature-presentation-odd">
-    <div class="col-xs-12 col-sm-7 feature-text">
-      <h1>Intelligente Routenplanung</h1>
-      <p>
-        Du planst einen längeren Trip und willst wissen, wo du auf dem Weg am besten Laden solltest. Mit Charge Planner
-        kannst du ganz einfach eine Empfehlung berechnen lassen wo du am besten zum Laden anhalten solltest und wie weit
-        du deinen Akku an jeder Station aufladen solltest, um am Ende schnellstmöglich ans Ziel zu kommen.<br />
-        Damit die Berechnung so genau wie möglich ist, wird die Route speziell für dein Elektroautomodell und dein
-        Fahrverhalten berechnet. Außerdem werden weitere beeinflussende Faktoren wie z.B. das Höhenprofil der Strecke
-        oder das Wetter automatisch berücksichtigt.
-      </p>
     </div>
-    <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
-      <div class="ios">
-        <img src="images/screenshots/routing.jpg" srcset="images/screenshots/routing@2x.jpg 2x"
-          alt="Screenshot Route" />
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        var useragent = navigator.userAgent.toLowerCase();
+        var isAndroid = useragent.indexOf("android") > -1;
+        var forceAndroid = window.location.href.includes("#android");
+        var forceIOS = window.location.href.includes("#ios");
+        var reset = function () {
+          $(".btn").removeClass("active");
+          $(".ios").removeClass("invisible");
+          $(".android").removeClass("invisible");
+        };
+        var activateAndroid = function () {
+          reset();
+          $(".android-button").addClass("active");
+          $(".ios").addClass("invisible");
+        };
+        var activateIOS = function () {
+          reset();
+          $(".ios-button").addClass("active");
+          $(".android").addClass("invisible");
+        };
+        var activateDarkMode = function () {
+          $(".dark").removeClass("invisible");
+          $(".ios").addClass("invisible");
+          $(".navbar").removeClass("navbar-default");
+          $(".navbar").addClass("navbar-inverse");
+        };
+
+        var deactivateDarkMode = function () {
+          $(".dark").addClass("invisible");
+          $(".ios").removeClass("invisible");
+          $(".navbar").addClass("navbar-default");
+          $(".navbar").removeClass("navbar-inverse");
+        };
+
+        var applyCurrentTheme = function () {
+          if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            activateDarkMode();
+          } else {
+            deactivateDarkMode();
+          }
+        };
+
+        $(".android-button").click(activateAndroid);
+        $(".ios-button").click(activateIOS);
+        if (forceIOS) {
+          activateIOS();
+        } else if (forceAndroid || isAndroid) {
+          activateAndroid();
+        } else {
+          activateIOS();
+        }
+
+        window.matchMedia("(prefers-color-scheme: dark)").addListener(
+          e => e.matches && activateDarkMode()
+        );
+
+        window.matchMedia("(prefers-color-scheme: light)").addListener(
+          e => e.matches && deactivateDarkMode()
+        );
+
+        applyCurrentTheme();
+
+      });
+    </script>
+
+    <div class="feature-presentation container-fluid">
+      <div class="row feature-presentation-even">
+        <div class="col-xs-12 col-sm-7 feature-text">
+          <h1>Umfangreiche Datensammlung</h1>
+          <p>
+            Charge Planner vereint die Daten aus über 10 verschiedenen Datenquellen in einer App und stellt über 17.000
+            Ladestationen in Deutschland in einer
+            übersichtlichen Kartenansicht dar. Egal ob du Ladestationen in deiner Nähe oder in einer anderen Stadt
+            finden
+            möchtest: In der Kartenansicht hast du alle wichtigen Informationen sofort im Blick.
+          </p>
+        </div>
+        <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
+          <div class="ios">
+            <img src="images/screenshots/map.jpg" srcset="images/screenshots/map@2x.jpg 2x" alt="Screenshot Karte" />
+          </div>
+          <div class="dark">
+            <img src="images/screenshots/map-dark.jpg" srcset="images/screenshots/map-dark@2x.jpg 2x"
+              alt="Screenshot Karte" />
+          </div>
+        </div>
       </div>
-      <div class="dark">
-        <img src="images/screenshots/routing-dark.jpg" srcset="images/screenshots/routing-dark@2x.jpg 2x"
-          alt="Screenshot Route" />
+
+      <div class="row feature-presentation-odd">
+        <div class="col-xs-12 col-sm-7 feature-text">
+          <h1>Intelligente Routenplanung</h1>
+          <p>
+            Du planst einen längeren Trip und willst wissen, wo du auf dem Weg am besten Laden solltest. Mit Charge
+            Planner
+            kannst du ganz einfach eine Empfehlung berechnen lassen wo du am besten zum Laden anhalten solltest und wie
+            weit
+            du deinen Akku an jeder Station aufladen solltest, um am Ende schnellstmöglich ans Ziel zu kommen.<br />
+            Damit die Berechnung so genau wie möglich ist, wird die Route speziell für dein Elektroautomodell und dein
+            Fahrverhalten berechnet. Außerdem werden weitere beeinflussende Faktoren wie z.B. das Höhenprofil der
+            Strecke
+            oder das Wetter automatisch berücksichtigt.
+          </p>
+        </div>
+        <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
+          <div class="ios">
+            <img src="images/screenshots/routing.jpg" srcset="images/screenshots/routing@2x.jpg 2x"
+              alt="Screenshot Route" />
+          </div>
+          <div class="dark">
+            <img src="images/screenshots/routing-dark.jpg" srcset="images/screenshots/routing-dark@2x.jpg 2x"
+              alt="Screenshot Route" />
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
 
-  <div class="row feature-presentation-even">
-    <div class="col-xs-12 col-sm-7 feature-text">
-      <h1>Live Belegstatus Informationen</h1>
-      <p>
-        In der Charge Planner App findest du für über 10.000 Ladestationen in Deutschland Live Belegstatus
-        Informationen. Damit siehst du sofort, ob sich eine Fahrt zur Ladestation lohnt oder ob du vielleicht lieber zu
-        einer anderen Ladestation in der Nähe fahren solltest.
-      </p>
-    </div>
-    <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
-      <div class="ios">
-        <img src="images/screenshots/details.jpg" srcset="images/screenshots/details@2x.jpg 2x"
-          alt="Screenshot Details" />
+      <div class="row feature-presentation-even">
+        <div class="col-xs-12 col-sm-7 feature-text">
+          <h1>Live Belegstatus Informationen</h1>
+          <p>
+            In der Charge Planner App findest du für über 10.000 Ladestationen in Deutschland Live Belegstatus
+            Informationen. Damit siehst du sofort, ob sich eine Fahrt zur Ladestation lohnt oder ob du vielleicht lieber
+            zu
+            einer anderen Ladestation in der Nähe fahren solltest.
+          </p>
+        </div>
+        <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
+          <div class="ios">
+            <img src="images/screenshots/details.jpg" srcset="images/screenshots/details@2x.jpg 2x"
+              alt="Screenshot Details" />
+          </div>
+          <div class="dark">
+            <img src="images/screenshots/details-dark.jpg" srcset="images/screenshots/details-dark@2x.jpg 2x"
+              alt="Screenshot Details" />
+          </div>
+        </div>
       </div>
-      <div class="dark">
-        <img src="images/screenshots/details-dark.jpg" srcset="images/screenshots/details-dark@2x.jpg 2x"
-          alt="Screenshot Details" />
-      </div>
-    </div>
-  </div>
 
-  <div class="row feature-presentation-odd">
-    <div class="col-xs-12 col-sm-7 feature-text">
-      <h1>Auslastungshistorie</h1>
-      <p>
-        Für Ladestationen mit Live Belegstatus Information wird dir nicht nur der aktuelle Belegstatus, sondern auch die
-        historische Belegung der Ladestationen angezeigt. So kannst du leicht abschätzen zu welchen Zeiten eine
-        Ladestation viel benutzt wird und wann gute Zeiten zum Laden sind.
-      </p>
-    </div>
-    <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
-      <div class="ios">
-        <img src="images/screenshots/details.jpg" srcset="images/screenshots/details@2x.jpg 2x"
-          alt="Screenshot Details" />
+      <div class="row feature-presentation-odd">
+        <div class="col-xs-12 col-sm-7 feature-text">
+          <h1>Auslastungshistorie</h1>
+          <p>
+            Für Ladestationen mit Live Belegstatus Information wird dir nicht nur der aktuelle Belegstatus, sondern auch
+            die
+            historische Belegung der Ladestationen angezeigt. So kannst du leicht abschätzen zu welchen Zeiten eine
+            Ladestation viel benutzt wird und wann gute Zeiten zum Laden sind.
+          </p>
+        </div>
+        <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
+          <div class="ios">
+            <img src="images/screenshots/details.jpg" srcset="images/screenshots/details@2x.jpg 2x"
+              alt="Screenshot Details" />
+          </div>
+          <div class="dark">
+            <img src="images/screenshots/details-dark.jpg" srcset="images/screenshots/details-dark@2x.jpg 2x"
+              alt="Screenshot Details" />
+          </div>
+        </div>
       </div>
-      <div class="dark">
-        <img src="images/screenshots/details-dark.jpg" srcset="images/screenshots/details-dark@2x.jpg 2x"
-          alt="Screenshot Details" />
-      </div>
-    </div>
-  </div>
 
-  <div class="row feature-presentation-even">
-    <div class="col-xs-12 col-sm-7 feature-text">
-      <h1>Benutzerfreundlich und modern</h1>
-      <p>
-        Bei der Entwicklung der App wurde viel Wert auf eine einfache Benutzbarkeit und bestmögliche Integration in iOS
-        13 gelegt. So unterstützt Charge Planner beispielsweise den iOS 13 Dark Mode.
-      </p>
-    </div>
-    <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
-      <div class="ios">
-        <img src="images/screenshots/map-dark.jpg" srcset="images/screenshots/map-dark@2x.jpg 2x"
-          alt="Screenshot Darkmode" />
+      <div class="row feature-presentation-even">
+        <div class="col-xs-12 col-sm-7 feature-text">
+          <h1>Benutzerfreundlich und modern</h1>
+          <p>
+            Bei der Entwicklung der App wurde viel Wert auf eine einfache Benutzbarkeit und bestmögliche Integration in
+            iOS
+            13 gelegt. So unterstützt Charge Planner beispielsweise den iOS 13 Dark Mode.
+          </p>
+        </div>
+        <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
+          <div class="ios">
+            <img src="images/screenshots/map-dark.jpg" srcset="images/screenshots/map-dark@2x.jpg 2x"
+              alt="Screenshot Darkmode" />
+          </div>
+          <div class="dark">
+            <img src="images/screenshots/map-dark.jpg" srcset="images/screenshots/map-dark@2x.jpg 2x"
+              alt="Screenshot Darkmode" />
+          </div>
+        </div>
       </div>
-      <div class="dark">
-        <img src="images/screenshots/map-dark.jpg" srcset="images/screenshots/map-dark@2x.jpg 2x"
-          alt="Screenshot Darkmode" />
-      </div>
     </div>
-  </div>
-</div>
 
-		<div class="row footer">
-  <div>
-    &copy; 2020 Bottled Software GmbH<br />
-    <a href="/impressum/">Impressum</a>
-    <a href="/datenschutz/">Datenschutz</a>
-    <!-- <a href="https://www.facebook.com/123tanken">Facebook</a>
+    <div class="row footer">
+      <div>
+        &copy; 2020 Bottled Software GmbH<br />
+        <a href="/impressum/">Impressum</a>
+        <a href="/datenschutz/">Datenschutz</a>
+        <!-- <a href="https://www.facebook.com/123tanken">Facebook</a>
     <a href="https://twitter.com/123tanken">Twitter</a><br /> -->
-    <!-- Google Play and the Google Play logo are trademarks of Google Inc. -->
+        <!-- Google Play and the Google Play logo are trademarks of Google Inc. -->
+      </div>
+    </div>
   </div>
-</div>
-	</div>
 </body>
 
 </html>
